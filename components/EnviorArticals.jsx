@@ -34,7 +34,7 @@ const EnviorArticals = () => {
     return (
         <div className='item'>
         <div className="title">
-            <h2>Envoironmental Articals</h2>
+            <h2>Envoironmental articles</h2>
         <div className="accInfo">
             <h6>{disUser}</h6>
             <a>
@@ -48,7 +48,7 @@ const EnviorArticals = () => {
             
                 <a href="/test">
                 <img className='write' src="../img/write.png" alt="" />
-                    <h4> write an artical</h4>
+                    <h4> write an article</h4>
                 </a>
             </div>
             <div className="cards">

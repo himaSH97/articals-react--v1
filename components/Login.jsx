@@ -75,7 +75,7 @@ const Login = () => {
 
 
                 <button type="submit" onClick={(e) => handleSubmit(e)}>Log in</button>
-                <p>If you are not signed up signup from bellow</p>
+                <p>If you are not signed up signup now below</p>
                 <button type="button" onClick={(e) => signUpPage(e)}>Register</button>
                 
                

@@ -77,13 +77,13 @@ export default function CreateArtical() {
     
     <div className="page">
       <div className="title">
-        <h1>Create an artical</h1>
+        <h1>Create an article</h1>
       </div>
 
       <div className="filds">
         <div className="myform">
         <form onSubmit={(e) => handleSubmit(e)}>
-          <label> Type of the artical </label>
+          <label> Type of the article </label>
           <select name="selectedFruit"
             value={articalType} onChange={(e) => setArticalType(e.target.value)} >
             <option value="none">None</option>
@@ -94,7 +94,7 @@ export default function CreateArtical() {
           </select>
           <label> Authors Name </label>
           <input type="text" value={creatorName} placeholder="authors Name" onChange={(e) => setCreatorName(e.target.value)} />
-          <label> Title of the artical </label>
+          <label> Title of the article </label>
           <input type="text" value={title} placeholder="title" onChange={(e) => setTitle(e.target.value)} />
           <label> tag 1 </label>
           <input type="text" value={tag1} placeholder="tag1" onChange={(e) => setTag1(e.target.value)} />

@@ -13,6 +13,7 @@
             font-size: clamp(2rem,3vw,3vw);
             margin: 30px;
             scroll-behavior: smooth;
+            text-transform: capitalize;
         }
         .accInfo{
             display: flex;
@@ -95,6 +96,7 @@
                     all: unset;
                     font-size: clamp(1rem,1.5vw,1.5vw);
                     text-shadow:  5px 5px 3px #380fcc2c;
+                    text-transform: capitalize;
    
                 }
             }

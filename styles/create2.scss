@@ -1,6 +1,9 @@
 :root {
     background-color: rgb(255, 255, 255);
 }
+html{
+    background-color: rgb(255, 255, 255);
+}
 .page{
     display: flex;
     flex-direction: column;
@@ -14,7 +17,7 @@
 }
 
 .filds {
-    
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,6 +82,8 @@
     
 
     .edit {
+        width: 800px;
+        height: 700px;
         padding: 50px;
         margin-bottom: 30px;
         margin-left: 30px;
@@ -97,6 +102,19 @@
     }
 
 }
+@media (max-width: 750px){
+    .page {
+        .filds{
+            flex-direction: column;
+            
+            .edit{
+                width: 600px;
+                height: 600px;
+            }
+        }
+        
+    }
+}
 @media (max-width: 600px) {
     .page {
         .filds{
@@ -111,24 +129,33 @@
                     }
                 }
             }
+            .edit{
+                width: 400px;
+                height: 400px;
+            }
         }
         
     }
 
 }
-@media (max-width: 400px) {
+
+@media (max-width: 600px) {
     .page {
         .filds{
             flex-direction: column;
             .myform{
                 form{
                     select{
-                        width: 200px; 
+                        width: 300px; 
                     }
                     input{
-                        width: 200px;
+                        width: 300px;
                     }
                 }
+            }
+            .edit{
+                width: 250px;
+                height: 250px;
             }
         }
         
