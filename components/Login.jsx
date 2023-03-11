@@ -27,7 +27,7 @@ const Login = () => {
         // set configurations
         const configuration = {
             method: "post",
-            url: "http://localhost:8000/login",
+            url: "https://myservice-5ysh.onrender.com/login",
             data: {
                 email,
                 password,

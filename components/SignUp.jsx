@@ -20,7 +20,7 @@ const SignUp = () => {
         // make a popup alert showing the "submitted" text
         const configuration = {
             method: "post",
-            url: "http://localhost:8000/register",
+            url: "https://myservice-5ysh.onrender.com/register",
             data: {
                 email,
                 password,

@@ -41,7 +41,7 @@ export default function CreateArtical() {
     // make a popup alert showing the "submitted" text
     const configuration = {
       method: "post",
-      url: "http://localhost:8000/createart",
+      url: "https://myservice-5ysh.onrender.com/createart",
       data: {
         articalType,
         creatorName,

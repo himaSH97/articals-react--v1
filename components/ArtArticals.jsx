@@ -22,7 +22,7 @@ const ArtArticals = () => {
     }
     
     useEffect(() => {
-        fetch('http://localhost:8000/getarticals')
+        fetch('https://myservice-5ysh.onrender.com/getarticals')
             .then(response => response.json())
             .then(data => {
                 const filteredData = data.filter(item => item.articalType === 'art');
