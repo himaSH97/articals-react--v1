@@ -38,7 +38,7 @@ const ArtArticals = () => {
         <div className="accInfo">
             <h6>{disUser}</h6>
             <a>
-                <button onClick={(e) => removeUser(e)}>logout</button>
+                <button onClick={(e) => removeUser(e)}>log out</button>
             </a>
             </div>
         </div>

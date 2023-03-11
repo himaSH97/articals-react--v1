@@ -89,7 +89,8 @@ export default function CreateArtical() {
             <option value="none">None</option>
             <option value="art">Art</option>
             <option value="science">Science</option>
-            <option value="history">Hstory</option>
+            <option value="history">History</option>
+            <option value="environment">Environment</option>
           </select>
           <label> Authors Name </label>
           <input type="text" value={creatorName} placeholder="authors Name" onChange={(e) => setCreatorName(e.target.value)} />
