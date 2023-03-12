@@ -12,6 +12,8 @@ $baseWidth: 400px;
     padding: 10px;
 
     .container{
+        display: flex;
+            flex-direction: column;
         width: clamp(20rem,28vw,30rem);
         box-sizing: border-box;
         border-radius: 20px;

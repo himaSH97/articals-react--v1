@@ -14,6 +14,7 @@ import ScienceArticals from "../components/ScienceArticals.jsx";
 import ArtArticals from "../components/ArtArticals.jsx";
 import EnviorArticals from "../components/EnviorArticals.jsx";
 import { UserContext } from "../UserContext.cjs";
+import Admin from "../components/Admin.jsx";
 
 
 
@@ -41,6 +42,7 @@ function App() {
         <Route path='/sciencearticals' element={<ScienceArticals />} />
         <Route path='/homepage/artarticals' element={<ArtArticals />} />
         <Route path='/homepage/envirarticals' element={<EnviorArticals />} />
+        <Route path='/admin' element={<Admin />} />
       </Routes>
 
     </div>

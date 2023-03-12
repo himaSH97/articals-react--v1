@@ -1,4 +1,5 @@
 const express = require("express");
+
 const app = express();
 const bodyParser = require('body-parser');
 const dbConnect = require("./db/dbConnect.cjs");
@@ -158,6 +159,23 @@ app.post("/login", (request, response) => {
         }
     })
 });
+
+
+// delete an artical
+app.delete('/deleteartical/:id',(req,res)=>{
+    Articals.findByIdAndRemove({_id:req.params.id}).then((result) => {
+        res.send(result)
+        });
+    })
+
+
+
+
+
+
+
+
+
 
 
 // free endpoint

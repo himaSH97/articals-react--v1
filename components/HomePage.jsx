@@ -49,7 +49,7 @@ const HomePage = () => {
                     <Card2 className="cad" imageSrc={"../img/env.jpg"} />
                 </a>
                 <a href="/homepage/envirarticals">
-                    <Card2 className="cad" imageSrc={"../img/politics.jpg"} />
+                    <Card2 className="cad" imageSrc={"../img/poli.jpg"} />
                 </a>
 
 
