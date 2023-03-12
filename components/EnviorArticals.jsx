@@ -25,7 +25,7 @@ const EnviorArticals = () => {
         fetch('https://myservice-5ysh.onrender.com/getarticals')
             .then(response => response.json())
             .then(data => {
-                const filteredData = data.filter(item => item.articalType === 'environment');
+                const filteredData = data.filter(item => item.articalType === 'politics');
                 setHist(filteredData);
               })
             .catch(error => console.error(error));
@@ -34,7 +34,7 @@ const EnviorArticals = () => {
     return (
         <div className='item'>
         <div className="title">
-            <h2>Envoironmental articles</h2>
+            <h2>political articles</h2>
         <div className="accInfo">
             <h6>{disUser}</h6>
             <a>

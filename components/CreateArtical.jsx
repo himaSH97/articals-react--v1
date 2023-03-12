@@ -87,10 +87,10 @@ export default function CreateArtical() {
           <select name="selectedFruit"
             value={articalType} onChange={(e) => setArticalType(e.target.value)} >
             <option value="none">None</option>
-            <option value="art">Art</option>
-            <option value="science">Science</option>
-            <option value="history">History</option>
+            <option value="media">Media</option>
+            <option value="sports">Sports</option>
             <option value="environment">Environment</option>
+            <option value="politics">Politics and Governance</option>
           </select>
           <label> Authors Name </label>
           <input type="text" value={creatorName} placeholder="authors Name" onChange={(e) => setCreatorName(e.target.value)} />

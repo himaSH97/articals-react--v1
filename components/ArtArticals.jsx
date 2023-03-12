@@ -25,7 +25,7 @@ const ArtArticals = () => {
         fetch('https://myservice-5ysh.onrender.com/getarticals')
             .then(response => response.json())
             .then(data => {
-                const filteredData = data.filter(item => item.articalType === 'art');
+                const filteredData = data.filter(item => item.articalType === 'media');
                 setHist(filteredData);
               })
             .catch(error => console.error(error));
@@ -34,7 +34,7 @@ const ArtArticals = () => {
     return (
         <div className='item'>
         <div className="title">
-            <h2>Art articles</h2>
+            <h2>media articles</h2>
         <div className="accInfo">
             <h6>{disUser}</h6>
             <a>

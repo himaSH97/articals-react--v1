@@ -24,7 +24,7 @@ const ScienceArticals = () => {
         fetch('https://myservice-5ysh.onrender.com/getarticals')
             .then(response => response.json())
             .then(data => {
-                const filteredData = data.filter(item => item.articalType === 'science');
+                const filteredData = data.filter(item => item.articalType === 'environment');
                 setHist(filteredData);
             })
             .catch(error => console.error(error));
@@ -33,7 +33,7 @@ const ScienceArticals = () => {
     return (
         <div className='item'>
             <div className="title">
-                <h2>Science articles</h2>
+                <h2>environmental articles</h2>
                 <div className="accInfo">
                     <h6>{disUser}</h6>
                     <a>

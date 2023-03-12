@@ -39,17 +39,17 @@ const HomePage = () => {
 
             <div className="category" >
                 <a href="/homepage/artarticals">
-                    <Card2 className="cad" imageSrc={"../img/art.jpg"} />
+                    <Card2 className="cad" imageSrc={"../img/media.jpg"} />
                 </a>
 
                 <a href="/histarticals">
-                    <Card2 className="cad" imageSrc={"../img/history.png"} />
+                    <Card2 className="cad" imageSrc={"../img/sports.jpg"} />
                 </a>
                 <a href="/sciencearticals">
-                    <Card2 className="cad" imageSrc={"../img/Science.jpg"} />
+                    <Card2 className="cad" imageSrc={"../img/env.jpg"} />
                 </a>
                 <a href="/homepage/envirarticals">
-                    <Card2 className="cad" imageSrc={"../img/img.jpg"} />
+                    <Card2 className="cad" imageSrc={"../img/politics.jpg"} />
                 </a>
 
 
